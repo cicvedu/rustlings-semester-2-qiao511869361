@@ -35,6 +35,7 @@
 // hint.
 
 
+
 fn main() {}
 
 #[cfg(test)]
@@ -52,3 +53,4 @@ mod tests {
         assert!(timestamp >= e && timestamp < e + 10);
     }
 }
+
